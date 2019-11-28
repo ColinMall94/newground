@@ -23,6 +23,18 @@ body {
   height: 112px;
 }
 
+.ip {
+  background-color: #000;
+  grid-row-start: 1;
+  grid-column: span 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+}
+
 .timer {
   background-color: #000;
   grid-row-start: 1;
