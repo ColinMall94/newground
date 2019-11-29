@@ -7,7 +7,7 @@ for /f "tokens=1 delims=:" %%j in ('ping %computername% -4 -n 1 ^| findstr Reply
 
 echo To access scoreboard, type the following into a browser: %localip:~11%:3000
 
-cd C:\Users\Colin\newground
+cd C:\***INSERT REPO LOCATION HERE***
 npm start
 
 pause
